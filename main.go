@@ -100,7 +100,8 @@ const SIMULATED_WALLY_VERSION = "0.3.2"
 
 func main() {
 	if len(os.Args) < 2 {
-		log.Fatalf("Usage: %s <scope/name@version> [output.rbxmx]", os.Args[0])
+		fmt.Println("Usage: wally-to-rbxmx <scope/name@version> [output.rbxmx]")
+		return
 	}
 	initialPackageIdentifierStr := os.Args[1]
 	log.Printf("Processing package identifier: %s", initialPackageIdentifierStr)
