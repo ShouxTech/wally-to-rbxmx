@@ -2,7 +2,7 @@
 A tool to convert Wally packages and dependencies to Roblox Studio importable RBXMX files.
 
 ## Download
-Download the latest release from the [Releases page](https://github.com/ShouxTech/wally-to-rbxmx/releases/)
+Download the latest release from the [Releases page](https://github.com/ShouxTech/wally-to-rbxmx/releases/).\
 Windows, macOS, and Linux prebuilt binaries are available.
 
 ## Usage:
